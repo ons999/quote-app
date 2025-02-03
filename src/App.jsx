@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 const App = () => {
-  const [quote, setQuote] = useState('No quotes available');
+  const [quote, setQuote] = useState('Click the button to get a Quote!');
   const [author, setAuthor] = useState('');
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
